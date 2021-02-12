@@ -28,3 +28,20 @@ Example:
 Enter a number: 8
 8 is only a perfect cube.
 """
+import math
+a = input("enter a number")
+a = float(a)
+b = math.pow(a,1/3)
+b = round(b)
+c = math.pow(b,3)
+d = math.pow(a,1/2)
+d = round(d)
+e = math.pow(d,2)
+ if c==a and a==c
+
+
+
+
+
+
+
