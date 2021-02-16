@@ -29,16 +29,16 @@ Enter a number: 8
 8 is only a perfect cube.
 """
 import math
-a = input("enter a number")
-a = float(a)
-b = math.pow(a,1/3)
-b = round(b)
-c = math.pow(b,3)
-d = math.pow(a,1/2)
-d = round(d)
-e = math.pow(d,2)
- if c==a and a==c
 
+number = input("Enter a number")
+x = float(number)
+if round(x**float(1.0/3),6) % 1 == 0 and math.sqrt(x) % 1 == 0:
+    print(number + " is both a perfect square and a perfect cube.")
+elif math.sqrt(x) % 1 == 0:
+    print(number + " is only a perfect square.")
+elif round(x**float(1.0/3),6) % 1 == 0:
+    print(number + " is only a perfect cube.")
+© 2021 GitHub, Inc.
 
 
 
