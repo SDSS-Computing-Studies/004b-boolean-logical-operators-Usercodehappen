@@ -21,4 +21,4 @@ x = float(number)
 if x % 1 == 0 and x > 0:
     print(number + " is a positive integer.")
 else:
-    print(number + " is not a positive integer.")
+    print(number + " is not a positive integer."

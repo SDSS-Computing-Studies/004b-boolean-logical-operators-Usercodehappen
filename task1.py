@@ -20,6 +20,6 @@ That is not within normal Earth orbit.
 a = input("enter in your number")
 a = float(a)
 if a >0.9759 and a<1.016:
-    print("That is within normal earth orbit.")
+    print("That is within normal Earth orbit.")
 else:
     print("That is not within normal Earth orbit.")
